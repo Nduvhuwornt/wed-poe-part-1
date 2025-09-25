@@ -1,0 +1,514 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    text-align: center;
+}
+
+/* Header Styles */
+header {
+    background-color: #2c3e50;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+}
+
+header img {
+    border-radius: 10px;
+    max-width: 100%;
+    height: auto;
+}
+
+header p {
+    font-size: 18px;
+}
+
+/* Navigation Styles */
+nav {
+    background-color: #34495e;
+    padding: 10px;
+    margin-top: 10px;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+
+nav a.active {
+    background-color: #e74c3c;
+}
+
+/* Hero Section */
+.hero {
+    text-align: center;
+    padding: 50px 20px;
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    color: white;
+}
+
+.hero h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.hero p {
+    font-size: 20px;
+    max-width: 800px;
+    margin: 0 auto 30px;
+}
+
+.hero a {
+    background-color: #e74c3c;
+    color: white;
+    padding: 15px 30px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+/* Featured Products Section */
+.featured {
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.featured h2 {
+    color: #2c3e50;
+    margin-bottom: 40px;
+}
+
+.product-container {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.product {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    width: 300px;
+}
+
+.product img {
+    border-radius: 8px;
+    max-width: 100%;
+    height: auto;
+}
+
+.product .price {
+    color: #e74c3c;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.view-all {
+    margin-top: 40px;
+}
+
+.view-all a {
+    background-color: #3498db;
+    color: white;
+    padding: 12px 25px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+/* Why Choose Us Section */
+.why-choose {
+    background-color: #ecf0f1;
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.why-choose h2 {
+    color: #2c3e50;
+    margin-bottom: 40px;
+}
+
+.features {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    flex-wrap: wrap;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.feature {
+    background: white;
+    padding: 30px;
+    border-radius: 10px;
+    width: 250px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+/* Call to Action Section */
+.cta {
+    text-align: center;
+    padding: 60px 20px;
+    background-color: #2c3e50;
+    color: white;
+}
+
+.cta h2 {
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+
+.cta p {
+    font-size: 18px;
+    margin-bottom: 30px;
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.cta-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.cta a {
+    background-color: #e74c3c;
+    color: white;
+    padding: 15px 30px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.cta a.call {
+    background-color: #27ae60;
+}
+
+/* Footer Styles */
+footer {
+    background-color: #34495e;
+    color: white;
+    text-align: center;
+    padding: 30px 20px;
+}
+
+.footer-content {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+footer p {
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+footer a {
+    color: white;
+}
+
+.social {
+    margin: 20px 0;
+}
+
+.social h4 {
+    margin-bottom: 15px;
+}
+
+.social-links {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    flex-wrap: wrap;
+}
+
+.social-links a {
+    color: white;
+    text-decoration: none;
+    background-color: #1877f2;
+    padding: 10px 15px;
+    border-radius: 5px;
+}
+
+.social-links a.instagram {
+    background-color: #e4405f;
+}
+
+.social-links a.twitter {
+    background-color: #1da1f2;
+}
+
+.social-links a.youtube {
+    background-color: #ff0000;
+}
+
+.copyright {
+    border-top: 1px solid #7f8c8d;
+    padding-top: 20px;
+    margin-top: 20px;
+}
+
+/* About Page Styles */
+main {
+    text-align: center;
+}
+
+.team {
+    background-color: #f4f4f4;
+    padding: 20px;
+    margin: 20px 0;
+}
+
+.gallery img {
+    width: 75%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.video {
+    margin: 20px 0;
+}
+
+.mission, .vision, .values, .history, .why-choose {
+    padding: 40px 20px;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.mission h2, .vision h3, .values h3, .history h4, .why-choose h2 {
+    color: #2c3e50;
+    margin-bottom: 20px;
+}
+
+.mission p, .vision p, .history p {
+    font-size: 18px;
+    line-height: 1.6;
+}
+
+.values ul {
+    list-style: none;
+    padding: 0;
+}
+
+.values li {
+    background: white;
+    padding: 15px;
+    margin: 10px 0;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.team {
+    background-color: #f4f4f4;
+    padding: 40px 20px;
+    margin: 20px 0;
+}
+
+.team h5 {
+    color: #2c3e50;
+    margin-bottom: 20px;
+}
+
+.team img {
+    width: 200px;
+    height: auto;
+    border-radius: 10px;
+    margin: 10px;
+}
+
+.why-choose ul {
+    list-style: none;
+    padding: 0;
+}
+
+.why-choose li {
+    background: white;
+    padding: 15px;
+    margin: 10px 0;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+/* Contact Page Styles */
+table {
+    margin: 0 auto;
+}
+
+iframe {
+    border: 0;
+}
+
+.form {
+    text-align: center;
+}
+
+textarea {
+    padding: 10px;
+    border: 2px solid #4CAF50;
+    border-radius: 5px;
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    resize: vertical;
+}
+
+/* Products Page Styles */
+.product-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.product-card {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    text-align: center;
+}
+
+.product-card img {
+    width: 100%;
+    max-width: 300px;
+    border-radius: 8px;
+}
+
+.product-card {
+    cursor: pointer;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.product-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 16px rgba(0,0,0,0.2);
+}
+
+.product-details {
+    display: none;
+    margin-top: 10px;
+    padding: 10px;
+    background-color: #f9f9f9;
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+.product-card:hover .product-details {
+    display: block;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+    nav ul {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .hero h2 {
+        font-size: 28px;
+    }
+
+    .hero p {
+        font-size: 16px;
+        max-width: 90%;
+    }
+
+    .hero a {
+        padding: 12px 25px;
+        font-size: 16px;
+    }
+
+    .product-container {
+        flex-direction: column;
+        gap: 20px;
+        max-width: 90%;
+        margin: 0 auto;
+    }
+
+    .product {
+        width: 100%;
+        max-width: 350px;
+        margin: 0 auto;
+    }
+
+    .features {
+        flex-direction: column;
+        gap: 20px;
+        max-width: 90%;
+        margin: 0 auto;
+    }
+
+    .feature {
+        width: 100%;
+        max-width: 350px;
+        margin: 0 auto;
+    }
+
+    .cta-buttons {
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    .cta a {
+        padding: 12px 25px;
+        font-size: 16px;
+    }
+
+    .team img {
+        width: 150px;
+    }
+
+    .gallery img {
+        width: 100%;
+    }
+}
+
+@media (max-width: 480px) {
+    .hero h2 {
+        font-size: 24px;
+    }
+
+    .hero p {
+        font-size: 14px;
+    }
+
+    nav a {
+        padding: 8px 15px;
+        font-size: 14px;
+    }
+
+    .product {
+        max-width: 100%;
+        padding: 15px;
+    }
+
+    .feature {
+        padding: 20px;
+    }
+
+    .cta a {
+        padding: 10px 20px;
+        font-size: 14px;
+    }
+}
