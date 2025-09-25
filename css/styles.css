@@ -290,6 +290,12 @@ main {
     margin: 20px 0;
 }
 
+.video video {
+    width: 100%;
+    height: auto;
+    max-width: 600px;
+}
+
 .mission, .vision, .values, .history, .why-choose {
     padding: 40px 20px;
     max-width: 800px;
