@@ -112,16 +112,20 @@ Here are sample screen displays of the website across different devices:
   ![Mobile View](assests/Mobile%20screen%20320px.png)
 
 ## Changelog
-This section tracks major updates to the website, based on completed tasks (Ramadi Motorsports Parts, 2025).
+This section tracks major updates to the website, based on completed tasks (Ndivhuwo, 2025).
 
 ### Version 1.0 (Initial Release)
 - **2025-01-XX**: Initial website launch with core pages (Home, About, Products, Services, Contact) (Ndivhuwo, 2025).
-- **2025-01-XX**: Standardized CSS across all pages, added semantic class names (Ramadi Motorsports Parts, 2025).
-- **2025-01-XX**: Implemented responsive design with media queries for tablet and mobile (Ramadi Motorsports Parts, 2025).
-- **2025-01-XX**: Added interactive product cards with hover effects to reveal details (Ramadi Motorsports Parts, 2025).
-- **2025-01-XX**: Standardized footers with full contact info and social links (Facebook, Instagram, Twitter, YouTube) (Ramadi Motorsports Parts, 2025).
-- **2025-01-XX**: Updated copyright to 2025 (Ramadi Motorsports Parts, 2025).
-- **2025-01-XX**: Created comprehensive README.md documentation (Ramadi Motorsports Parts, 2025).
+- **2025-01-XX**: Standardized CSS across all pages, added semantic class names (Ndivhuwo, 2025).
+- **2025-01-XX**: Implemented responsive design with media queries for tablet and mobile (Ndivhuwo, 2025).
+- **2025-01-XX**: Added interactive product cards with hover effects to reveal details (Ndivhuwo, 2025).
+- **2025-01-XX**: Standardized footers with full contact info and social links (Facebook, Instagram, Twitter, YouTube) (Ndivhuwo, 2025).
+- **2025-01-XX**: Updated copyright to 2025 (Ndivhuwo, 2025).
+- **2025-01-XX**: Created comprehensive README.md documentation (Ndivhuwo, 2025).
+
+### Version 1.1 (Recent Updates)
+- **2025-01-XX**: Made video in about.html autoplay, muted, loop, and responsive for all devices including mobile (Ndivhuwo, 2025).
+- **2025-01-XX**: Made map in contact.html responsive for all devices including mobile (Ndivhuwo, 2025).
 
 ## How to View/Run
 1. Clone or download the project.
@@ -133,5 +137,14 @@ This section tracks major updates to the website, based on completed tasks (Rama
 - Based on `TODO.md`, recent updates include CSS standardization and interactive features.
 - Potential improvements: Add JavaScript for form validation, optimize images, integrate real social links, or add e-commerce functionality.
 - For changes: Edit HTML/CSS directly, test in browser, update `TODO.md`.
+
+## References
+Google (2025) *Google Maps*. Available at: https://maps.google.com (Accessed: 15 January 2025).
+
+Ndivhuwo, R. (2025) *Ramadi Motorsports Parts Website*. Available at: https://github.com/ndivhuwo/ramadi-motorsport-part (Accessed: 15 January 2025).
+
+W3C (2024) *HTML5 Specification*. Available at: https://html.spec.whatwg.org/ (Accessed: 15 January 2025).
+
+W3C (2024) *CSS Grid Layout Module Level 1*. Available at: https://www.w3.org/TR/css-grid-1/ (Accessed: 15 January 2025).
 
 © 2025 Ramadi Motorsports Parts. All rights reserved.
