@@ -96,6 +96,33 @@ Each page follows a consistent structure: header (logo + nav) > main content sec
 - **Videos**: 4 MP4s (e.g., turbo sounds, previews). Embedded in about page.
 - **Other**: No external links except social placeholders and Google Maps.
 
+## Screenshots
+Here are sample screen displays of the website across different devices:
+
+- **Desktop (1440px)**:  
+  ![Desktop View](assests/Desktop%20screen%201440px.png)
+
+- **Laptop (1024px)**:  
+  ![Laptop View](assests/Laptop%20screen%201024px.png)
+
+- **Tablet (768px)**:  
+  ![Tablet View](assests/Tablet%20screen%20768px.png)
+
+- **Mobile (320px)**:  
+  ![Mobile View](assests/Mobile%20screen%20320px.png)
+
+## Changelog
+This section tracks major updates to the website, based on completed tasks (Ramadi Motorsports Parts, 2025).
+
+### Version 1.0 (Initial Release)
+- **2025-01-XX**: Initial website launch with core pages (Home, About, Products, Services, Contact) (Ndivhuwo, 2025).
+- **2025-01-XX**: Standardized CSS across all pages, added semantic class names (Ramadi Motorsports Parts, 2025).
+- **2025-01-XX**: Implemented responsive design with media queries for tablet and mobile (Ramadi Motorsports Parts, 2025).
+- **2025-01-XX**: Added interactive product cards with hover effects to reveal details (Ramadi Motorsports Parts, 2025).
+- **2025-01-XX**: Standardized footers with full contact info and social links (Facebook, Instagram, Twitter, YouTube) (Ramadi Motorsports Parts, 2025).
+- **2025-01-XX**: Updated copyright to 2025 (Ramadi Motorsports Parts, 2025).
+- **2025-01-XX**: Created comprehensive README.md documentation (Ramadi Motorsports Parts, 2025).
+
 ## How to View/Run
 1. Clone or download the project.
 2. Open `index.html` in any modern web browser (Chrome, Firefox, Safari).
